@@ -52,7 +52,9 @@ function currentLine(current_line){
   if (current_line.length > 0){
     for (var x in current_line){
       if (x + 1 === current_line.length){
-        var last_part = x + "." 
+        var last_part = x+1  + ". " + current_line[x] + "."
+      }else{
+        var middle_part = x +1 + ". " + current_line[x] + "."
       }
     }
     
