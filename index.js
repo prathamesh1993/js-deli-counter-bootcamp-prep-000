@@ -28,6 +28,6 @@ function nowServing(current_line){
   if (current_line.length ===0){
     return "There is nobody waiting to be served!"
   }else{
-    return current_line.shift()
+    return `Currently serving ${current_line.shift()}.`
   }
 }
