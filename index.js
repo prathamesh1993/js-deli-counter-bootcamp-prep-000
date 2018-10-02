@@ -61,13 +61,13 @@ function currentLine(current_line){
       
       
     }
-    return first_part.join('')[0]
+    
   }else{
     return "The line is currently empty."
   }
   
   
-  
+ return first_part.join('')[0] 
   
 }
 
