@@ -21,5 +21,5 @@ function takeANumber(current_line,  name){
 
 function takeANumber(current_line,  name){
   current_line.push(name)
-  return `"Welcome, ${name}. You are number ${current_line.length} in the line."`;
+  return `"Welcome, ${name}. You are number ${current_line.length} in line."`;
 }
