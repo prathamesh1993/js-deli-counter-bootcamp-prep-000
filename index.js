@@ -20,5 +20,5 @@ function takeANumber(current_line,  name){
 */
 
 function takeANumber(current_line,  name){
-  return `"Welcome, ${name}. You are ${current_line.length}th in the line."`;
+  return `"Welcome, ${name}. You are number ${current_line.length} in the line."`;
 }
