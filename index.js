@@ -23,3 +23,12 @@ function takeANumber(current_line,  name){
   current_line.push(name)
   return `Welcome, ${name}. You are number ${current_line.length} in line.`;
 }
+
+function nowServing(current_line){
+  if (current_line.length ===0){
+    return "There is nobody waiting to be served!"
+  }else{
+    
+    return current_line[0]
+  }
+}
