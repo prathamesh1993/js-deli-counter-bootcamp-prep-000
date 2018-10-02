@@ -36,7 +36,14 @@ function currentLine(current_line){
   if(current_line.length === 0){
     return "The line is currently empty."
   }else{
-    for(var x in current_line)
-    return `The line is currently: ${}. ${},
-  }
+    var return_statement = "The line is currently:" 
+    for(var x in current_line){
+      return_statement + `${x+1}. ${current_line[x]}`
+    }
+    
+    
+    
+    
+    
+  return return_statement}
 }
