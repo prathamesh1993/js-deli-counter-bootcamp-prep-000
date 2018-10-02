@@ -28,7 +28,8 @@ function nowServing(current_line){
   if (current_line.length ===0){
     return "There is nobody waiting to be served!"
   }else{
-    
-    return current_line[0]
+    var firstPerson = current_line[0]
+    current_line.
+    return firstPerson
   }
 }
