@@ -48,15 +48,21 @@ function currentLine(current_line){
 
 
 function currentLine(current_line){
-  first_part = "The line is currently:";
+  first_part = ["The line is currently:"];
   if (current_line.length > 0){
     for (var x in current_line){
       if (x + 1 === current_line.length){
         var last_part = x+1  + ". " + current_line[x]
+        first_part = first_part.push(last_part)
       }else{
-        var middle_part = x +1 + ". " + current_line[x] + "."
+        var middle_part = " " +  x +1 + ". " + current_line[x] + ","
+        first_part = first_part.push(middle_part)
       }
+      
+      
     }
+    
+  }else{
     
   }
   
