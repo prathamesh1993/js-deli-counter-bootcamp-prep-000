@@ -40,10 +40,6 @@ function currentLine(current_line){
     for(var x in current_line){
       return_statement + `${x+1}. ${current_line[x]}`
     }
-    
-    
-    
-    
-    
-  return return_statement}
+  }
+  return return_statement
 }
