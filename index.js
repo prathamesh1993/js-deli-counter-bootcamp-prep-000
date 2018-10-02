@@ -61,9 +61,9 @@ function currentLine(current_line){
       
       
     }
-    
+    return first_part
   }else{
-    
+    return "The line is currently empty."
   }
   
   
