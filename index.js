@@ -1,3 +1,4 @@
+/*
 function takeANumber(current_line,  name){
   if (current_line.length > 3){
   return `"Welcome, ${name}. You are ${current_line.length}th in the line."`;
@@ -15,4 +16,9 @@ function takeANumber(current_line,  name){
   return `"Welcome, ${name}. You are 1st in the line."`;
   }
 
+}
+*/
+
+function takeANumber(current_line,  name){
+  return `"Welcome, ${name}. You are ${current_line.length}th in the line."`;
 }
