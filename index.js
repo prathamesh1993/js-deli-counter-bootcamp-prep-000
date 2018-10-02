@@ -43,3 +43,38 @@ function currentLine(current_line){
   }
   return return_statement
 }
+
+
+
+
+function currentLine(current_line){
+  first_part = "The line is currently:";
+  if (current_line.length > 0){
+    for (var x in current_line){
+      if (x + 1 === current_line.length){
+        var last_part = x + "." 
+      }
+    }
+    
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
